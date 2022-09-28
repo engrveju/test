@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CustomerCartTest {
 
-    CashierServices serve = new CashierServices();
+    CashierServicesImpl serve = new CashierServicesImpl();
     @Test
     void buy() {
         assertEquals("Please take your APPLE. \nHere is your receipt:" +

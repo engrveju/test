@@ -2,10 +2,10 @@ package Convenience_Store.Products_And_Services;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CashierServicesTest {
+class CashierServicesImplTest {
 
 
-    CashierServices cashier = new CashierServices();
+    CashierServicesImpl cashier = new CashierServicesImpl();
 
     @org.junit.jupiter.api.Test
     void buy() {
