@@ -1,6 +1,6 @@
-package Convenience_Store.StaffsAndCustomer;
+package Convenience_Store.model;
 
-import Convenience_Store.UserRoles.UserRole;
+import Convenience_Store.Enums.UserRole;
 
 public class Customer extends ProfileImpl{
 

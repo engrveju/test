@@ -1,6 +1,6 @@
-package Convenience_Store.StaffsAndCustomer;
+package Convenience_Store.model;
 
-import Convenience_Store.UserRoles.UserRole;
+import Convenience_Store.Enums.UserRole;
 
 public class Manager extends ProfileImpl{
 
@@ -9,6 +9,6 @@ public class Manager extends ProfileImpl{
         super(firstName, lastName);
     }
 
-    @Override
+    //@Override
     public UserRole getRole() {return role;}
 }

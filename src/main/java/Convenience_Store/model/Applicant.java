@@ -1,7 +1,7 @@
-package Convenience_Store.StaffsAndCustomer;
+package Convenience_Store.model;
 
 
-import Convenience_Store.UserRoles.UserRole;
+import Convenience_Store.Enums.UserRole;
 
 public class Applicant  extends ProfileImpl{
 
@@ -17,7 +17,7 @@ public class Applicant  extends ProfileImpl{
         super(firstName, lastName);
         this.Ages =age;
     }
-
+//
     public String viewProfile(){
         return "Name: " + this.getFirstName() +" "+ this.getLastName() + "\t" +"Role: " + this.getRole();
     }

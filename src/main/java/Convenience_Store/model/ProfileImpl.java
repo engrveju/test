@@ -1,8 +1,9 @@
-package Convenience_Store.StaffsAndCustomer;
+package Convenience_Store.model;
 
-import Convenience_Store.UserRoles.UserRole;
+import Convenience_Store.Enums.UserRole;
+import Convenience_Store.Interfaces.Profile;
 
-public abstract class ProfileImpl implements Profile{
+public abstract class ProfileImpl implements Profile {
     private String firstName;
     private String lastName;
     private UserRole role;

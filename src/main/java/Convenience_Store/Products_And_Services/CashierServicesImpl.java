@@ -1,6 +1,8 @@
 package Convenience_Store.Products_And_Services;
 
-public class CashierServicesImpl  implements CashierServices{
+import Convenience_Store.Interfaces.CashierServices;
+
+public class CashierServicesImpl  implements CashierServices {
 
     private ProductList myProduct = new ProductList();
 

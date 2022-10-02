@@ -1,8 +1,9 @@
 package Convenience_Store.Products_And_Services;
 
 
-import Convenience_Store.StaffsAndCustomer.Applicant;
-import Convenience_Store.UserRoles.UserRole;
+import Convenience_Store.Enums.UserRole;
+import Convenience_Store.Interfaces.ManagerServices;
+import Convenience_Store.model.Applicant;
 
 public class ManagerServicesImpl implements ManagerServices {
     public String hire(Applicant applicant) {

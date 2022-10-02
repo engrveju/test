@@ -1,8 +1,8 @@
 package Convenience_Store.Products_And_Services;
 
-import Convenience_Store.StaffsAndCustomer.Applicant;
-import Convenience_Store.StaffsAndCustomer.Cashier;
-import Convenience_Store.StaffsAndCustomer.Manager;
+import Convenience_Store.model.Applicant;
+import Convenience_Store.model.Cashier;
+import Convenience_Store.model.Manager;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

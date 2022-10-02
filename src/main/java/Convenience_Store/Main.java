@@ -1,10 +1,11 @@
 package Convenience_Store;
 
 
-import Convenience_Store.Products_And_Services.*;
-import Convenience_Store.StaffsAndCustomer.Applicant;
-import Convenience_Store.StaffsAndCustomer.Cashier;
-import Convenience_Store.StaffsAndCustomer.Manager;
+import Convenience_Store.Interfaces.CashierServices;
+import Convenience_Store.Interfaces.ManagerServices;
+import Convenience_Store.Products_And_Services.CashierServicesImpl;
+import Convenience_Store.Products_And_Services.ManagerServicesImpl;
+import Convenience_Store.model.Applicant;
 
 public class Main {
     private static ManagerServices managerServices = new ManagerServicesImpl();
@@ -12,6 +13,12 @@ public class Main {
     public static void main(String[] args) {
         Applicant applicant1 = new Applicant("Uche","Eze", 25);
         Applicant applicant2 = new Applicant("Peter","Philips", 15);
+
+
+        System.out.println(applicant2.viewProfile());
+        System.out.println(applicant1.viewProfile());
+
+        System.out.println("\n----------------------------------------------------------\n");
 
         String applicant1_Result = managerServices.hire(applicant1);
         String applicant2_Result = managerServices.hire(applicant2);
@@ -21,7 +28,12 @@ public class Main {
 
         System.out.println("\n----------------------------------------------------------\n");
 
-        String sales = cashierServices.sell("fridge");
+        System.out.println(applicant2.viewProfile());
+        System.out.println(applicant1.viewProfile());
+
+        System.out.println("\n----------------------------------------------------------\n");
+
+        String sales = cashierServices.sell("phone");
         System.out.println(sales);
 
         System.out.println("\n----------------------------------------------------------\n");

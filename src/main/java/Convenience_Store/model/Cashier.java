@@ -1,10 +1,10 @@
-package Convenience_Store.StaffsAndCustomer;
-import Convenience_Store.UserRoles.UserRole;
+package Convenience_Store.model;
+import Convenience_Store.Enums.UserRole;
 
 public class Cashier extends ProfileImpl {
     private UserRole role = UserRole.CASHIER;
     private int Ages;
-
+//
     public int getAges() {return Ages;}
     public UserRole getRole() {return role;}
 
